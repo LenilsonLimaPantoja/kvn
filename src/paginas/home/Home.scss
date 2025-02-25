@@ -1,0 +1,180 @@
+.container-home {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    overflow: hidden;
+
+    .home-header {
+        padding: 15px 80px;
+        text-align: center;
+        color: #fff;
+        background: #030303;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-portfolio {
+            font-weight: 500;
+        }
+
+        .header-img {
+            width: 140px;
+        }
+
+        .header-btns {
+            display: flex;
+
+            button {
+                width: 40px;
+                height: 40px;
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+
+                svg {
+                    color: #fff;
+                    font-size: 17px;
+                }
+            }
+        }
+
+        @media (max-width: 1024px) {
+            justify-content: center;
+
+            .header-btns,
+            .header-portfolio {
+                display: none;
+            }
+        }
+    }
+
+    .body-home {
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+
+        .section-1 {
+            background: linear-gradient(180deg, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 1) 62%), url('https://kvn.marketing/wp-content/uploads/2022/02/mavic-air-imagem-aerea-drone2.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            row-gap: 80px;
+            justify-content: center;
+            align-items: center;
+            padding: 100px 20px;
+            color: #fff;
+
+            .section-1-textos {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                row-gap: 30px;
+
+                h1 {
+                    font-size: 40px;
+                    text-align: center;
+                }
+
+                p {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+
+            .section-1-contato {
+                display: flex;
+                column-gap: 40px;
+                row-gap: 20px;
+                width: 100%;
+                justify-content: center;
+
+                button {
+                    background-color: #eeb500;
+                    min-width: 250px;
+                    padding: 15px 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    border-radius: 25px;
+                    column-gap: 10px;
+                    cursor: pointer;
+
+                    svg {
+                        font-size: 20px;
+                    }
+
+                    span {
+                        font-weight: 500;
+                    }
+
+                    &:hover {
+
+                        svg,
+                        span {
+                            color: #fff;
+                            transition: .3s ease-in-out;
+                        }
+                    }
+                }
+            }
+
+            .opcoes {
+                display: flex;
+                column-gap: 20px;
+                row-gap: 20px;
+                flex-wrap: wrap;
+                width: 100%;
+                max-width: 1024px;
+                justify-content: center;
+
+                div {
+                    padding: 20px;
+                    display: flex;
+                    flex-grow: 1;
+                    min-width: 300px;
+                    max-width: 400px;
+                    align-items: center;
+                    column-gap: 10px;
+                    border: solid 1px gray;
+                    justify-content: center;
+
+                    svg {
+                        font-size: 25px;
+                        color: #eeb500;
+                    }
+
+                    span {
+                        text-transform: capitalize;
+                        font-weight: 500;
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            @media (max-width: 1024px) {
+                .section-1-contato {
+                    flex-direction: column;
+
+                    button {
+                        width: 100%;
+                    }
+                }
+
+                .opcoes {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    div {
+                        width: 100%;
+                        max-width: none;
+                    }
+                }
+            }
+        }
+    }
+}
