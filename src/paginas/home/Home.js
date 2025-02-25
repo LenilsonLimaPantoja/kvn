@@ -1,5 +1,5 @@
 import './Home.scss';
-import { FaFacebookF, FaYoutube, FaFilm, FaCamera, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaYoutube, FaFilm, FaCamera, FaWhatsapp, FaRegPlayCircle } from "react-icons/fa";
 import { FaInstagram, FaVideo, FaPanorama } from "react-icons/fa6";
 import { LiaMapSolid } from "react-icons/lia";
 import { BsFillTelephoneFill } from "react-icons/bs";
@@ -118,6 +118,35 @@ const Home = () => {
                         <FaWhatsapp />
                         <span>Faça um orçamento rápido</span>
                     </button>
+                </section>
+                <section className='section-4'>
+                    <div className='section-4-textos'>
+                        <h1>Conheça nosso Trabalho.</h1>
+                        <p>Filmagem com Drone de Última Geração. Empresa Recomendada em Goiânia.</p>
+                    </div>
+                    <div className='videos'>
+                        <div>
+                            <FaRegPlayCircle />
+                        </div>
+                        <div>
+                            <FaRegPlayCircle />
+                        </div>
+                        <div>
+                            <FaRegPlayCircle />
+                        </div>
+                        <div>
+                            <FaRegPlayCircle />
+                        </div>
+                        <div>
+                            <FaRegPlayCircle />
+                        </div>
+                        <div>
+                            <FaRegPlayCircle />
+                        </div>
+                        <div>
+                            <FaRegPlayCircle />
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>

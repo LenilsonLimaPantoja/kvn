@@ -324,5 +324,67 @@
                 }
             }
         }
+
+        .section-4 {
+            padding: 80px 20px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 80px;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+
+            .section-4-textos {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+
+                h1 {
+                    text-align: center;
+                    font-size: 35px;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            .videos {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                row-gap: 5px;
+                column-gap: 5px;
+
+                div {
+                    min-width: 350px;
+                    max-width: 500px;
+                    flex-grow: 1;
+                    height: 220px;
+                    flex-basis: 0;
+                    background: url('https://kvn.marketing/wp-content/uploads/2024/03/construcao.webp');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+
+                    svg {
+                        font-size: 50px;
+                    }
+                }
+            }
+
+            @media (max-width: 1024px) {
+                padding: 50px 10px;
+                row-gap: 50px;
+
+                h1 {
+                    font-size: 30px;
+                }
+            }
+        }
     }
 }
