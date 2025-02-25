@@ -103,22 +103,37 @@
                     border-radius: 25px;
                     column-gap: 10px;
                     cursor: pointer;
+                    position: relative;
+                    overflow: hidden;
 
                     svg {
                         font-size: 20px;
+                        z-index: 999;
                     }
 
                     span {
                         font-weight: 500;
+                        transition: 1s ease-in-out;
+                        z-index: 999;
+                    }
+
+                    div {
+                        position: absolute;
+                        left: 0px;
+                        background-color: #f7e5ac;
+                        height: 50px;
+                        transition: .5s ease-in-out;
                     }
 
                     &:hover {
 
-                        svg,
-                        span {
-                            color: #fff;
-                            transition: .3s ease-in-out;
+                        div {
+                            width: 100%;
                         }
+                    }
+
+                    &:not(:hover) div {
+                        width: 0;
                     }
                 }
             }
@@ -634,7 +649,8 @@
                 }
             }
         }
-        .section-8{
+
+        .section-8 {
             color: #fff;
             display: flex;
             flex-direction: column;
@@ -643,7 +659,8 @@
             padding: 20px;
             row-gap: 10px;
             font-size: 13px;
-            img{
+
+            img {
                 width: 130px;
             }
         }

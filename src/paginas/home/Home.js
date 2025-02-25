@@ -69,6 +69,7 @@ const Home = () => {
                     </div>
                     <div className='section-1-contato'>
                         <button>
+                            <div></div>
                             <FaWhatsapp />
                             <span>
                                 Faça um orçamento rápido
@@ -76,6 +77,7 @@ const Home = () => {
                         </button>
 
                         <button>
+                            <div></div>
                             <BsFillTelephoneFill />
                             <span>
                                 Ligue agora (62) 9 8127-2917
