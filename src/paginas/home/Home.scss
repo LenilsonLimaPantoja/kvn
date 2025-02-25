@@ -389,6 +389,7 @@
                 }
             }
         }
+
         .section-5 {
             background: linear-gradient(180deg, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, .6) 62%), url('https://kvn.marketing/wp-content/uploads/2022/03/drone-oscar-niemeyer-goiania-kvn.webp');
             padding: 20px;
@@ -443,6 +444,82 @@
 
                 h1 {
                     font-size: 30px;
+                }
+            }
+        }
+
+        .section-6 {
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            column-gap: 50px;
+
+            .section-6-left {
+                display: flex;
+                flex-direction: column;
+                row-gap: 50px;
+                justify-content: flex-end;
+                align-items: flex-end;
+
+                h1,
+                p {
+                    text-align: end;
+                }
+
+                button {
+                    background-color: #eeb500;
+                    min-width: 250px;
+                    padding: 15px 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    border-radius: 25px;
+                    column-gap: 10px;
+                    cursor: pointer;
+                    font-weight: 500;
+
+                    &:hover {
+
+                        color: #fff;
+                        transition: .3s ease-in-out;
+                    }
+                }
+            }
+
+            img {
+                width: 600px;
+            }
+
+            @media (max-width: 1024px) {
+                padding: 80px 10px;
+
+                img {
+                    width: 400px;
+                }
+            }
+
+            @media (max-width: 900px) {
+                flex-direction: column;
+                row-gap: 30px;
+
+                .section-6-left {
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    row-gap: 20px;
+
+                    h1,
+                    p {
+                        text-align: center;
+                    }
+                }
+            }
+            @media (max-width: 500px) {
+                img {
+                    width: 300px;
                 }
             }
         }

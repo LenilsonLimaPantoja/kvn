@@ -198,6 +198,20 @@ const Home = () => {
                         <span>Faça um orçamento rápido</span>
                     </button>
                 </section>
+                <section className='section-6'>
+                    <div className='section-6-left'>
+                        <h1>Imagem Aérea em Alta Qualidade.</h1>
+                        <p>
+                            Contamos com uma Equipe Altamente Capacitada
+                            <br />
+                            para a Execução dos Serviços.
+                        </p>
+                        <button>
+                            Conheça nossos serviços
+                        </button>
+                    </div>
+                    <img src='https://kvn.marketing/wp-content/uploads/2024/09/drone-avata-kvn-marketing2-1024x615.webp' />
+                </section>
             </div >
         </div >
     )
