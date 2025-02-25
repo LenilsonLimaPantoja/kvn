@@ -159,6 +159,14 @@
                 row-gap: 50px;
                 padding: 50px 10px;
 
+                .section-1-textos {
+                    row-gap: 25px;
+
+                    h1 {
+                        font-size: 30px;
+                    }
+                }
+
                 .section-1-contato {
                     flex-direction: column;
 
