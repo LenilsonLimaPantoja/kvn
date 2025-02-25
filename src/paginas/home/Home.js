@@ -190,6 +190,14 @@ const Home = () => {
                         </div>
                     </div >
                 </section >
+                <section className='section-5'>
+                    <h1>Filmagem com Drone. Filmagem Aérea Profissional.</h1>
+                    <p>Fotografia com Drone. Serviços com Drone.</p>
+                    <button>
+                        <FaWhatsapp />
+                        <span>Faça um orçamento rápido</span>
+                    </button>
+                </section>
             </div >
         </div >
     )

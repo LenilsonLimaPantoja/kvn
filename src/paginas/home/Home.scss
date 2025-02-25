@@ -389,5 +389,62 @@
                 }
             }
         }
+        .section-5 {
+            background: linear-gradient(180deg, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, .6) 62%), url('https://kvn.marketing/wp-content/uploads/2022/03/drone-oscar-niemeyer-goiania-kvn.webp');
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            background-attachment: fixed;
+            row-gap: 20px;
+            min-height: 400px;
+            background-position: center;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            margin-top: 30px;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            button {
+                background-color: #eeb500;
+                min-width: 250px;
+                padding: 15px 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                border-radius: 25px;
+                column-gap: 10px;
+                cursor: pointer;
+
+                svg {
+                    font-size: 20px;
+                }
+
+                span {
+                    font-weight: 500;
+                }
+
+                &:hover {
+
+                    svg,
+                    span {
+                        color: #fff;
+                        transition: .3s ease-in-out;
+                    }
+                }
+            }
+
+            @media (max-width: 1024px) {
+                padding: 10px;
+
+                h1 {
+                    font-size: 30px;
+                }
+            }
+        }
     }
 }
