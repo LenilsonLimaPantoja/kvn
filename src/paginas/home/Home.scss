@@ -357,15 +357,12 @@
                 column-gap: 5px;
 
                 div {
-                    min-width: 350px;
-                    max-width: 500px;
+                    min-width: 450px;
                     flex-grow: 1;
-                    height: 220px;
+                    min-height: 300px;
                     flex-basis: 0;
-                    background: url('https://kvn.marketing/wp-content/uploads/2024/03/construcao.webp');
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
+
+
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -383,6 +380,12 @@
 
                 h1 {
                     font-size: 30px;
+                }
+
+                .videos {
+                    div {
+                        min-width: 300px;
+                    }
                 }
             }
         }

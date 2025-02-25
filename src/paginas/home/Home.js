@@ -125,31 +125,73 @@ const Home = () => {
                         <p>Filmagem com Drone de Última Geração. Empresa Recomendada em Goiânia.</p>
                     </div>
                     <div className='videos'>
-                        <div>
+                        <div style={{
+                            background: "url('https://kvn.marketing/wp-content/uploads/2024/03/construcao.webp')",
+                            backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
+
+                        }}>
                             <FaRegPlayCircle />
                         </div>
-                        <div>
+                        <div style={{
+                            background: "url('https://kvn.marketing/wp-content/uploads/2024/03/prots.webp')",
+                            backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
+
+                        }}>
                             <FaRegPlayCircle />
                         </div>
-                        <div>
+                        <div style={{
+                            background: "url('https://kvn.marketing/wp-content/uploads/2024/03/bee.webp')",
+                            backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
+
+                        }}>
                             <FaRegPlayCircle />
                         </div>
-                        <div>
+                        <div style={{
+                            background: "url('https://kvn.marketing/wp-content/uploads/2024/03/sobrado.webp')",
+                            backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
+
+                        }}>
+                            <FaRegPlayCircle />
+                        </div >
+                        <div style={{
+                            background: "url('https://kvn.marketing/wp-content/uploads/2025/01/colombina.webp')",
+                            backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
+
+                        }}>
                             <FaRegPlayCircle />
                         </div>
-                        <div>
+                        <div style={{
+                            background: "url('https://kvn.marketing/wp-content/uploads/2025/01/volga-regras.webp')",
+                            backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
+
+                        }}>
                             <FaRegPlayCircle />
                         </div>
-                        <div>
+                        <div style={{
+                            background: "url('https://kvn.marketing/wp-content/uploads/2025/01/volga-blokset.webp')",
+                            backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
+
+                        }}>
                             <FaRegPlayCircle />
                         </div>
-                        <div>
+                        <div style={{
+                            background: "url('https://kvn.marketing/wp-content/uploads/2024/03/heinz.webp')",
+                            backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
+
+                        }}>
                             <FaRegPlayCircle />
                         </div>
-                    </div>
-                </section>
-            </div>
-        </div>
+                        <div style={{
+                            background: "url('https://kvn.marketing/wp-content/uploads/2024/03/alucentro.webp')",
+                            backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'
+
+                        }}>
+                            <FaRegPlayCircle />
+                        </div>
+                    </div >
+                </section >
+            </div >
+        </div >
     )
 }
 export default Home;
