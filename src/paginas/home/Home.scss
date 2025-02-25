@@ -142,6 +142,7 @@
                     border: solid 1px gray;
                     justify-content: center;
                     flex-basis: 0;
+
                     svg {
                         font-size: 25px;
                         color: #eeb500;
@@ -183,6 +184,84 @@
                     div {
                         width: 100%;
                         max-width: none;
+                    }
+                }
+            }
+        }
+
+        .section-2 {
+            background-color: #030303;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            row-gap: 80px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            flex-wrap: wrap;
+
+            .section-2-textos {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                row-gap: 30px;
+                text-align: center;
+            }
+
+            .section-2-cards {
+                display: flex;
+                column-gap: 20px;
+                row-gap: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .card {
+                    flex-grow: 1;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #1d1d1d;
+                    flex-wrap: wrap;
+                    flex-basis: 0;
+                    min-width: 270px;
+                    max-width: 350px;
+                    padding: 5px;
+
+                    .imagem {
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .textos {
+                        padding: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 20px;
+                        background-color: #1d1d1d;
+
+                        h2 {
+                            text-align: center;
+                            color: #eeb500;
+                            font-size: 18px;
+                        }
+
+                        p {
+                            text-align: center;
+                            line-height: 20px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+
+            @media (max-width: 1024px) {
+                padding: 10px;
+                row-gap: 50px;
+
+                .section-2-cards {
+                    .card {
+                        max-width: 450px;
                     }
                 }
             }

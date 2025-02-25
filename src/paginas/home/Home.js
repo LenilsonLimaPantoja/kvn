@@ -67,6 +67,50 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                <section className='section-2'>
+                    <div className='section-2-textos'>
+                        <h1>Temos a Solução Completa em Imagem Aérea para o seu Negócio.</h1>
+                        <p>Somos Especialistas em Filmagem com Drone. Entre em Contato e faça um Orçamento.</p>
+                    </div>
+                    <div className='section-2-cards'>
+                        <div className='card'>
+                            <div className='imagem'>
+                                <img src='https://kvn.marketing/wp-content/uploads/2023/04/engenharia-kvn-1-1536x1021.webp' alt='Construção civil' />
+                            </div>
+                            <div className='textos'>
+                                <h2>Construção Civil</h2>
+                                <p>A filmagem com drone na construção civil é crucial para monitorar os progressos, avaliar o local de forma abrangente e otimizar o planejamento.</p>
+                            </div>
+                        </div>
+                        <div className='card'>
+                            <div className='imagem'>
+                                <img src='https://kvn.marketing/wp-content/uploads/2023/04/imobiliario-kvn-1-1536x1021.webp' alt='Mercado Imobiliário' />
+                            </div>
+                            <div className='textos'>
+                                <h2>Mercado Imobiliário</h2>
+                                <p>No mercado imobiliário, a filmagem com drone desempenha um papel essencial ao apresentar propriedades de maneira envolvente.</p>
+                            </div>
+                        </div>
+                        <div className='card'>
+                            <div className='imagem'>
+                                <img src='https://kvn.marketing/wp-content/uploads/2023/04/publicitario-kvn-1-1536x1021.webp' alt='Marketing e Publicidade' />
+                            </div>
+                            <div className='textos'>
+                                <h2>Marketing e Publicidade</h2>
+                                <p>Estratégica na publicidade, a filmagem com drone adiciona uma dimensão dinâmica, atraindo e retendo a atenção do público.</p>
+                            </div>
+                        </div>
+                        <div className='card'>
+                            <div className='imagem'>
+                                <img src='https://kvn.marketing/wp-content/uploads/2023/04/institucional-kvn-1-1536x1021.webp' alt='Imagens Aéreas' />
+                            </div>
+                            <div className='textos'>
+                                <h2>Imagens Aéreas</h2>
+                                <p>Atuamos com o melhor para entregar a solução que você precisa. Filmagem com Drone em Goiânia. Atendimento rápido. Faça um orçamento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
