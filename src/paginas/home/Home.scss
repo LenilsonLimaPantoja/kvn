@@ -132,7 +132,7 @@
                 justify-content: center;
 
                 div {
-                    padding: 20px;
+                    padding: 15px;
                     display: flex;
                     flex-grow: 1;
                     min-width: 300px;
@@ -141,7 +141,7 @@
                     column-gap: 10px;
                     border: solid 1px gray;
                     justify-content: center;
-
+                    flex-basis: 0;
                     svg {
                         font-size: 25px;
                         color: #eeb500;
