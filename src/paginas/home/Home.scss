@@ -297,6 +297,7 @@
                 border-radius: 25px;
                 column-gap: 10px;
                 cursor: pointer;
+                max-width: 500px;
 
                 svg {
                     font-size: 20px;
@@ -321,6 +322,10 @@
 
                 h1 {
                     font-size: 30px;
+                }
+
+                button {
+                    width: 100%;
                 }
             }
         }
@@ -419,6 +424,7 @@
                 border: none;
                 border-radius: 25px;
                 column-gap: 10px;
+                max-width: 500px;
                 cursor: pointer;
 
                 svg {
@@ -444,6 +450,10 @@
 
                 h1 {
                     font-size: 30px;
+                }
+
+                button {
+                    width: 100%;
                 }
             }
         }
@@ -480,6 +490,7 @@
                     column-gap: 10px;
                     cursor: pointer;
                     font-weight: 500;
+                    max-width: 450px;
 
                     &:hover {
 
@@ -510,17 +521,130 @@
                     align-items: center;
                     text-align: center;
                     row-gap: 20px;
+                    width: 100%;
 
                     h1,
                     p {
                         text-align: center;
                     }
+
+                    button {
+                        width: 100%;
+                    }
                 }
             }
+
             @media (max-width: 500px) {
                 img {
                     width: 300px;
                 }
+            }
+        }
+
+        .section-7 {
+            color: #fff;
+            background-color: #1d1d1d;
+            padding: 80px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 30px;
+
+            h1 {
+                text-align: center;
+            }
+
+            .local {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                column-gap: 10px;
+                text-align: center;
+
+                svg {
+                    color: #eeb500;
+                    font-size: 25px;
+                }
+            }
+
+            .section-7-btns {
+                display: flex;
+                row-gap: 20px;
+                column-gap: 20px;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                row-gap: 20px;
+
+                button {
+                    background-color: #eeb500;
+                    min-width: 250px;
+                    padding: 15px 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    border-radius: 25px;
+                    column-gap: 10px;
+                    max-width: 500px;
+                    cursor: pointer;
+
+                    svg {
+                        font-size: 20px;
+                    }
+
+                    span {
+                        font-weight: 500;
+                    }
+
+                    &:hover {
+
+                        svg,
+                        span {
+                            color: #fff;
+                            transition: .3s ease-in-out;
+                        }
+                    }
+                }
+            }
+
+            .email {
+                display: flex;
+                text-align: center;
+                column-gap: 10px;
+                align-items: center;
+                justify-content: center;
+
+                svg {
+                    color: #eeb500;
+                    font-size: 25px;
+                }
+            }
+
+            @media (max-width: 750px) {
+                padding: 80px 10px;
+
+                .section-7-btns {
+                    flex-direction: column;
+
+                    button {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .section-8{
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            row-gap: 10px;
+            font-size: 13px;
+            img{
+                width: 130px;
             }
         }
     }

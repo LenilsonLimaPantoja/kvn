@@ -1,9 +1,9 @@
 import './Home.scss';
 import { FaFacebookF, FaYoutube, FaFilm, FaCamera, FaWhatsapp, FaRegPlayCircle } from "react-icons/fa";
-import { FaInstagram, FaVideo, FaPanorama } from "react-icons/fa6";
-import { LiaMapSolid } from "react-icons/lia";
+import { FaInstagram, FaPanorama, FaLocationDot } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BsCameraReelsFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 
 const Home = () => {
     return (
@@ -106,13 +106,13 @@ const Home = () => {
                             </div>
                             <div className='textos'>
                                 <h2>Imagens Aéreas</h2>
-                                <p>Atuamos com o melhor para entregar a solução que você precisa. Filmagem com Drone em Goiânia. Atendimento rápido. Faça um orçamento.</p>
+                                <p>Atuamos com o melhor para entregar a solução que você precisa. Filmagem com Drone em Mato Grosso do Sul. Atendimento rápido. Faça um orçamento.</p>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section className='section-3'>
-                    <h1>Empresa de Filmagem com Drone em Goiânia.</h1>
+                    <h1>Empresa de Filmagem com Drone em Mato Grosso do Sul.</h1>
                     <p>Atuamos com o Melhor do Mercado para Entregar a Solução Que Você Precisa.</p>
                     <button>
                         <FaWhatsapp />
@@ -122,7 +122,7 @@ const Home = () => {
                 <section className='section-4'>
                     <div className='section-4-textos'>
                         <h1>Conheça nosso Trabalho.</h1>
-                        <p>Filmagem com Drone de Última Geração. Empresa Recomendada em Goiânia.</p>
+                        <p>Filmagem com Drone de Última Geração. Empresa Recomendada em Mato Grosso do Sul.</p>
                     </div>
                     <div className='videos'>
                         <div style={{
@@ -211,6 +211,36 @@ const Home = () => {
                         </button>
                     </div>
                     <img src='https://kvn.marketing/wp-content/uploads/2024/09/drone-avata-kvn-marketing2-1024x615.webp' />
+                </section>
+                <section className='section-7'>
+                    <h1>Filmagem com Drone. Contrate Agora.</h1>
+                    <p className='local'>
+                        <FaLocationDot />
+                        <span>Atendimento em Mato Grosso do Sul e em todo o estado de Campo Grande.</span>
+                    </p>
+                    <div className='section-7-btns'>
+                        <button>
+                            <FaWhatsapp />
+                            <span>
+                                Faça um orçamento rápido
+                            </span>
+                        </button>
+
+                        <button>
+                            <BsFillTelephoneFill />
+                            <span>
+                                Ligue agora (62) 9 8127-2917
+                            </span>
+                        </button>
+                    </div>
+                    <p className='email'>
+                        <MdEmail />
+                        <span>kevin@gmail.com</span>
+                    </p>
+                </section>
+                <section className='section-8'>
+                    <img src='https://kvn.marketing/wp-content/webp-express/webp-images/uploads/2023/04/kvn-marketing-logo-2.png.webp' />
+                    <span>Copyright © 2025 – Todos os direitos reservados.</span>
                 </section>
             </div >
         </div >
