@@ -127,7 +127,6 @@ $secondary: #84339a;
 
                     span {
                         font-weight: 500;
-                        transition: 1s ease-in-out;
                         z-index: 999;
                     }
 
@@ -140,6 +139,7 @@ $secondary: #84339a;
                     }
 
                     &:hover {
+                        color: #fff;
 
                         div {
                             width: 100%;
@@ -327,23 +327,37 @@ $secondary: #84339a;
                 border-radius: 25px;
                 column-gap: 10px;
                 cursor: pointer;
-                max-width: 500px;
+                position: relative;
+                overflow: hidden;
 
                 svg {
                     font-size: 20px;
+                    z-index: 999;
                 }
 
                 span {
                     font-weight: 500;
+                    z-index: 999;
+                }
+
+                div {
+                    position: absolute;
+                    left: 0px;
+                    background-color: $secondary;
+                    height: 50px;
+                    transition: .5s ease-in-out;
                 }
 
                 &:hover {
+                    color: #fff;
 
-                    svg,
-                    span {
-                        color: #fff;
-                        transition: .3s ease-in-out;
+                    div {
+                        width: 100%;
                     }
+                }
+
+                &:not(:hover) div {
+                    width: 0;
                 }
             }
 
@@ -455,24 +469,38 @@ $secondary: #84339a;
                 border: none;
                 border-radius: 25px;
                 column-gap: 10px;
-                max-width: 500px;
                 cursor: pointer;
+                position: relative;
+                overflow: hidden;
 
                 svg {
                     font-size: 20px;
+                    z-index: 999;
                 }
 
                 span {
                     font-weight: 500;
+                    z-index: 999;
+                }
+
+                div {
+                    position: absolute;
+                    left: 0px;
+                    background-color: $secondary;
+                    height: 50px;
+                    transition: .5s ease-in-out;
                 }
 
                 &:hover {
+                    color: #fff;
 
-                    svg,
-                    span {
-                        color: #fff;
-                        transition: .3s ease-in-out;
+                    div {
+                        width: 100%;
                     }
+                }
+
+                &:not(:hover) div {
+                    width: 0;
                 }
             }
 
@@ -520,13 +548,37 @@ $secondary: #84339a;
                     border-radius: 25px;
                     column-gap: 10px;
                     cursor: pointer;
-                    font-weight: 500;
-                    max-width: 450px;
+                    position: relative;
+                    overflow: hidden;
+
+                    svg {
+                        font-size: 20px;
+                        z-index: 999;
+                    }
+
+                    span {
+                        font-weight: 500;
+                        z-index: 999;
+                    }
+
+                    div {
+                        position: absolute;
+                        left: 0px;
+                        background-color: $secondary;
+                        height: 50px;
+                        transition: .5s ease-in-out;
+                    }
 
                     &:hover {
-
                         color: #fff;
-                        transition: .3s ease-in-out;
+
+                        div {
+                            width: 100%;
+                        }
+                    }
+
+                    &:not(:hover) div {
+                        width: 0;
                     }
                 }
             }
@@ -618,24 +670,38 @@ $secondary: #84339a;
                     border: none;
                     border-radius: 25px;
                     column-gap: 10px;
-                    max-width: 500px;
                     cursor: pointer;
+                    position: relative;
+                    overflow: hidden;
 
                     svg {
                         font-size: 20px;
+                        z-index: 999;
                     }
 
                     span {
                         font-weight: 500;
+                        z-index: 999;
+                    }
+
+                    div {
+                        position: absolute;
+                        left: 0px;
+                        background-color: $secondary;
+                        height: 50px;
+                        transition: .5s ease-in-out;
                     }
 
                     &:hover {
+                        color: #fff;
 
-                        svg,
-                        span {
-                            color: #fff;
-                            transition: .3s ease-in-out;
+                        div {
+                            width: 100%;
                         }
+                    }
+
+                    &:not(:hover) div {
+                        width: 0;
                     }
                 }
             }

@@ -163,6 +163,7 @@ const Home = () => {
                     <h1>Empresa de Filmagem com Drone em Campo Grande/MS e região</h1>
                     <p>Atuamos com o Melhor do Mercado para Entregar a Solução Que Você Precisa</p>
                     <button onClick={() => sociais('https://wa.me/5567992713094')}>
+                        <div></div>
                         <FaWhatsapp />
                         <span>Faça um orçamento rápido</span>
                     </button>
@@ -175,7 +176,7 @@ const Home = () => {
                     <div className='videos'>
                         {videos?.map((item) => (
                             <div
-                            onClick={()=> sociais(item.link)}
+                                onClick={() => sociais(item.link)}
                                 key={item?.id}
                                 style={{
                                     background: `url('${item?.url}')`,
@@ -189,9 +190,10 @@ const Home = () => {
                 </section >
                 <section className='section-5'>
                     <h1>Eventos em geral | Ensaios | Esportes |
-                    Serviços imobiliários | Turismo</h1>
+                        Serviços imobiliários | Turismo</h1>
                     <p>Tudo isso e um pouco mais...</p>
                     <button onClick={() => sociais('https://wa.me/5567992713094')}>
+                        <div></div>
                         <FaWhatsapp />
                         <span>Faça um orçamento rápido</span>
                     </button>
@@ -205,7 +207,8 @@ const Home = () => {
                             para a Execução dos Serviços.
                         </p>
                         <button onClick={() => sociais('https://wa.me/5567992713094')}>
-                            Conheça nossos serviços
+                            <div></div>
+                            <span>Conheça nossos serviços</span>
                         </button>
                     </div>
                     <img src='https://kvn.marketing/wp-content/uploads/2024/09/drone-avata-kvn-marketing2-1024x615.webp' />
@@ -218,6 +221,7 @@ const Home = () => {
                     </p>
                     <div className='section-7-btns'>
                         <button onClick={() => sociais('https://wa.me/5567992713094')}>
+                            <div></div>
                             <FaWhatsapp />
                             <span>
                                 Faça um orçamento rápido
@@ -225,6 +229,7 @@ const Home = () => {
                         </button>
 
                         <button>
+                            <div></div>
                             <BsFillTelephoneFill />
                             <span>
                                 Ligue agora (67) 9 9271-3094
